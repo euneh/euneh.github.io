@@ -1,0 +1,14 @@
+title: euneh
+description: 다시 쓰기 위해 만든 공간
+url: "https://euneh.github.io"
+baseurl: ""
+
+theme: minima
+
+minima:
+  skin: classic
+
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
