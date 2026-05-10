@@ -1,14 +1,12 @@
 title: EUNEH
-description: 많이 읽고 조금씩 씁니다 
+description: 요즘 보고 듣는 것에 대하여 
 url: "https://euneh.github.io"
 baseurl: ""
 
-theme: minima
-
+remote_theme: jekyll/minima
 minima:
   skin: solarized
-
 show_excerpts: true
-
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
