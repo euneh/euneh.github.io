@@ -1,32 +1,8 @@
 ---
-layout: default
+layout: home
 ---
 
-
-<div style="max-width: 640px; margin: 4rem auto; padding: 0 1.5rem;">
-
-  <!-- 대문 -->
-  <div style="margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid #e8e8e8;">
-    <h1 style="font-size: 1.6rem; font-weight: 500; margin-bottom: 0.5rem;">EUNEH</h1>
-    <p style="color: #828282; font-size: 1rem; margin-bottom: 1.5rem;">요즘 보고 듣는 것에 대하여</p>
-    <a href="/posts" style="font-size: 0.9rem; color: #333; border-bottom: 1px solid #333; padding-bottom: 2px; text-decoration: none;">글 전체 보기 →</a>
-  </div>
-
-  <!-- 최근 글 -->
-  <div>
-    <h2 style="font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: #828282; margin-bottom: 1.2rem; font-weight: 500;">최근 글</h2>
-    <ul style="list-style: none; margin: 0; padding: 0;">
-      {% for post in site.posts limit:5 %}
-      <li style="display: flex; justify-content: space-between; align-items: baseline; padding: 0.7rem 0; border-bottom: 1px solid #f0f0f0;">
-        <a href="{{ post.url }}" style="font-size: 0.95rem; color: #333; text-decoration: none;">
-          {{ post.title }}
-        </a>
-        <span style="font-size: 0.8rem; color: #bbb; margin-left: 1rem; white-space: nowrap;">
-          {{ post.date | date: "%Y.%m.%d" }}
-        </span>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-
+<div class="home-intro">
+  <p>요즘 보고 듣는 것에 대하여</p>
+  <a href="/posts">글 전체 보기 →</a>
 </div>
