@@ -6,7 +6,7 @@ baseurl: ""
 theme: minima
 
 minima:
-  skin: classic
+  skin: dark
 
 show_excerpts: true
 
