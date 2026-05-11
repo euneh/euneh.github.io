@@ -4,9 +4,11 @@ url: "https://euneh.github.io"
 baseurl: ""
 
 remote_theme: jekyll/minima
+
 minima:
   skin: classic
 show_excerpts: true
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
