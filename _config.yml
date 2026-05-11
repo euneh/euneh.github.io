@@ -5,7 +5,7 @@ baseurl: ""
 
 remote_theme: jekyll/minima
 minima:
-  skin: auto
+  skin: classic
 show_excerpts: true
 plugins:
   - jekyll-feed
