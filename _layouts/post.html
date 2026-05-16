@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<article class="post">
+<div class="post">
 
   <header class="post-header">
-    <h1>{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}</h1>
 
     <p class="post-meta">
       {{ page.date | date: "%Y.%m.%d" }}
@@ -16,8 +16,9 @@ layout: default
     {{ content }}
   </div>
 
-</article>
+</div>
 
+<div class="giscus-wrapper">
 <script src="https://giscus.app/client.js"
         data-repo="euneh/euneh.github.io"
         data-repo-id="R_kgDOSZembQ"
@@ -28,8 +29,9 @@ layout: default
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="dark"
+        data-theme="transparent_dark"
         data-lang="ko"
         crossorigin="anonymous"
         async>
 </script>
+</div>
