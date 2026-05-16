@@ -6,9 +6,8 @@ baseurl: ""
 remote_theme: jekyll/minima
 
 minima:
-  skin: solarized
+  skin: darked
   show_excerpts: true
 
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
