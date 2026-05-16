@@ -4,6 +4,22 @@
 @import "minima/skins/dark";
 @import "minima/initialize";
 
+.post-link {
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+}
+
+.wrapper {
+  max-width: 760px;
+}
+
+.post-content img {
+  border-radius: 10px;
+  margin: 2rem auto;
+  display: block;
+}
+
+
 .giscus {
   margin-top: 4rem;
 }
