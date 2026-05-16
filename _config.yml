@@ -7,7 +7,7 @@ remote_theme: jekyll/minima
 
 minima:
   skin: darked
-  show_excerpts: true
+  show_excerpts: false
 
 plugins:
   - jekyll-remote-theme
