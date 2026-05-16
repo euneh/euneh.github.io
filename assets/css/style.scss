@@ -14,9 +14,11 @@
 }
 
 .post-content img {
-  border-radius: 10px;
-  margin: 2rem auto;
+  max-width: 70%;
+  height: auto;
   display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
 }
 
 html,
