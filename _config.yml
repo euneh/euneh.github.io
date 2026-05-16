@@ -6,7 +6,7 @@ baseurl: ""
 remote_theme: jekyll/minima
 
 minima:
-  skin: darked
+  skin: dark
   show_excerpts: false
 
 plugins:
