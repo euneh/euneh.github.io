@@ -4,13 +4,13 @@
 @import "minima/skins/dark";
 @import "minima/initialize";
 
+.wrapper {
+  max-width: 760px;
+}
+
 .post-link {
   font-size: 1.4rem;
   letter-spacing: -0.02em;
-}
-
-.wrapper {
-  max-width: 760px;
 }
 
 .post-content img {
@@ -21,48 +21,11 @@
   border-radius: 8px;
 }
 
-html,
-body,
-.page-content,
-.wrapper,
-.post,
-.post-content {
-  background-color: #181818 !important;
-  color: #e6e6e6 !important;
-}
-
-.post-title,
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4 {
-  color: #ffffff !important;
-}
-
-.post-content p,
-.post-content li {
-  color: #e6e6e6 !important;
-}
-
-.post-content a {
-  color: #8ab4f8 !important;
-}
-
-.site-header,
-.site-footer {
-  background-color: #181818 !important;
-}
-
-
 .giscus {
   margin-top: 4rem;
 }
 
-.feed-subscribe {
-  display: none;
-}
-
+.feed-subscribe,
 .rss-subscribe {
   display: none !important;
 }
-
