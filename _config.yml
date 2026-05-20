@@ -3,7 +3,7 @@ description: 요즘 보고 듣는 것에 대하여
 url: "https://euneh.github.io"
 baseurl: ""
 
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@master
 
 minima:
   skin: dark
