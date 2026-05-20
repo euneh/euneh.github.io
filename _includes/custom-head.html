@@ -11,6 +11,19 @@ window.MathJax = {
   },
   svg: {
     fontCache: 'global'
+  },
+  startup: {
+    ready() {
+      document.querySelectorAll('script[type^="math/tex"]').forEach(function(el) {
+        var display = el.type === 'math/tex; mode=display';
+        var node = document.createElement(display ? 'div' : 'span');
+        node.textContent = display
+          ? '\\[' + el.textContent + '\\]'
+          : '\\(' + el.textContent + '\\)';
+        el.parentNode.replaceChild(node, el);
+      });
+      MathJax.startup.defaultReady();
+    }
   }
 };
 </script>
