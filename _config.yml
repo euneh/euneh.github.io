@@ -12,3 +12,6 @@ minima:
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+
+kramdown:
+  math_engine: mathjax
