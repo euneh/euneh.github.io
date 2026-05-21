@@ -4,6 +4,27 @@
 @import "minima/skins/dark";
 @import "minima/initialize";
 
+html,
+
+body {
+
+  background-color: #181818 !important;
+
+  color: #e8e8e8 !important;
+
+}
+
+.site-header,
+
+.site-footer,
+
+.page-content {
+
+  background-color: #181818 !important;
+
+}
+
+
 .wrapper {
   max-width: 760px;
 }
