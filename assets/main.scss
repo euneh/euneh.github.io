@@ -65,3 +65,26 @@ body {
 .rss-subscribe {
   display: none !important;
 }
+
+html,
+body,
+main,
+.page-content,
+.wrapper,
+.post,
+.post-content,
+article {
+  background: #181818 !important;
+  background-color: #181818 !important;
+}
+
+.post-content *,
+article * {
+  background-color: transparent;
+}
+
+pre,
+code,
+.highlight {
+  background-color: #222 !important;
+}
