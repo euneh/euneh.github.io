@@ -5,33 +5,48 @@
 @import "minima/initialize";
 
 html,
-
 body {
-
   background-color: #181818 !important;
-
   color: #e8e8e8 !important;
-
 }
 
 .site-header,
-
 .site-footer,
-
 .page-content {
-
   background-color: #181818 !important;
-
 }
-
 
 .wrapper {
   max-width: 760px;
 }
 
+.post,
+.post-content,
+.post-header {
+  background: transparent !important;
+  color: #e8e8e8 !important;
+}
+
+.post-title,
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  color: #f5f5f5 !important;
+}
+
+.post-content a,
+.post-link {
+  color: #79b8ff;
+}
+
 .post-link {
   font-size: 1.4rem;
   letter-spacing: -0.02em;
+}
+
+.post-meta {
+  color: #b0b0b0;
 }
 
 .post-content img {
