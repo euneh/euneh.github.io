@@ -2,7 +2,6 @@
 layout: post
 title: "서리풀 연구통 기고글 모음"
 categories: [글쓰기]
-permalink: /seoripul/
 ---
 
 ### 들어가기 
